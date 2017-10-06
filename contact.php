@@ -7,7 +7,7 @@ $name=$_POST['name'];
 $mail=$_POST['mail'];
 $msg =$_POST['msg'] ;
 
-$hostname = "localhost";
+$hostname = "35.195.192.3";
 $username = "proxy";
 $password = "proxy1";
 $dbname = "proxy";

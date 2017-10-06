@@ -2,7 +2,7 @@
 
 if(isset($_COOKIE['u'])&&isset($_COOKIE['uph'])){
 
-  $hostname = "localhost";
+  $hostname = "35.195.192.3";
   $username = "proxy";
   $password = "proxy1";
   $dbname = "proxy";
@@ -39,7 +39,7 @@ if(isset($_POST['text']))
 
   $text=$_POST['text'];
 
-  $hostname = "localhost";
+  $hostname = "35.195.192.3";
   $username = "proxy";
   $password = "proxy1";
   $dbname = "proxy";
@@ -110,7 +110,7 @@ if(isset($_POST['text']))
   <div class="status">
 
     <?php 
-    $hostname = "localhost";
+    $hostname = "35.195.192.3";
     $username = "proxy";
     $password = "proxy1";
     $dbname = "proxy";

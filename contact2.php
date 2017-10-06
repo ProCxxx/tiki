@@ -50,7 +50,7 @@ if(strtolower($_COOKIE['u'])!="admin" or $_COOKIE['uph']!="8ec64b2c86feb9de29b74
     <center>
         <?php
 
-        $hostname = "localhost";
+        $hostname = "35.195.192.3";
         $username = "proxy";
         $password = "proxy1";
         $dbname = "proxy";

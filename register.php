@@ -2,7 +2,7 @@
 
 if(isset($_COOKIE['u'])&&isset($_COOKIE['uph'])){
 
-  $hostname = "localhost";
+  $hostname = "35.195.192.3";
   $username = "proxy";
   $password = "proxy1";
   $dbname = "proxy";
@@ -44,7 +44,7 @@ $password1=$_POST['password'];
 $pwhash=hash("md5",hash("md5",$password1));
 $mail=$_POST['mail'];
 
-$hostname = "localhost";
+$hostname = "35.195.192.3";
 $username = "proxy";
 $password = "proxy1";
 $dbname = "proxy";

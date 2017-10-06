@@ -2,7 +2,7 @@
 
 if(isset($_COOKIE['u'])&&isset($_COOKIE['uph'])){
 
-  $hostname = "localhost";
+  $hostname = "35.195.192.3";
   $username = "proxy";
   $password = "proxy1";
   $dbname = "proxy";
@@ -39,7 +39,7 @@ $err2="";
 
 if(isset($_POST['name'])&&isset($_POST['mail'])){
 
-  $hostname = "localhost";
+  $hostname = "35.195.192.3";
   $username = "proxy";
   $password = "proxy1";
   $dbname = "proxy";
@@ -74,7 +74,7 @@ if(isset($_POST['name'])&&isset($_POST['mail'])){
 
 if(isset($_POST['pw1'])&&isset($_POST['pw2'])){
 
-    $hostname = "localhost";
+    $hostname = "35.195.192.3";
     $username = "proxy";
     $password = "proxy1";
     $dbname = "proxy";
@@ -146,7 +146,7 @@ if(isset($_POST['pw1'])&&isset($_POST['pw2'])){
       <?php
       if(isset($_COOKIE['u'])&&isset($_COOKIE['uph']))
       {
-      $hostname = "localhost";
+      $hostname = "35.195.192.3";
       $username = "proxy";
       $password = "proxy1";
       $dbname = "proxy";
