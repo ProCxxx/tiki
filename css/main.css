@@ -1,0 +1,117 @@
+body {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+header p.title {
+  margin: auto;
+  font-size: 90px;
+  color: blue;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  word-spacing: 10px;
+  font-weight: 400;
+}
+
+nav ul li,
+nav ul li p {
+  display: inline;
+}
+
+nav ul li p a {
+  margin: auto;
+  text-decoration: none;
+  color: blue;
+  font-size: 32px;
+  border: 1px white solid;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+table.contact-box {
+  border: 1px solid white;
+  padding: 10px;
+  width: 25%;
+}
+
+table.contact-box2 {
+  background-color: lightblue;
+  color: blue;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table.contact-box2,
+table.contact-box2 th,
+table.contact-box2 td {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+p.about-text {
+  border: 1px solid white;
+  font-size: 24px;
+  width: auto;
+  color: blue;
+}
+
+span.remain p {
+  display: inline;
+}
+
+p.results {
+  color: blue;
+  font-size: 36px;
+}
+
+table.update-status {
+  border: 1px white solid;
+  padding: 5px;
+}
+
+textarea.status-post-text{
+  width: 480px;
+}
+table.status-table ,
+table.status-table tr,
+table.status-table tr td{ 
+  border: 1px white solid;
+  padding: 0 5px;
+  width: 501px;
+  border-collapse: collapse
+}
+
+table tr td p.status-name {
+  font-size: 1em;
+  font-family: Arial;
+  color:blue;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+table tr td p.status-text {
+  font-size: 1em;
+  font-family: Arial;
+  color:black;
+  font-weight: 400;
+  text-align: justify;
+}
+
+table tr td p.status-like {
+  font-size: 1em;
+  font-family: Arial;
+  color:blue;
+  font-weight: 900;
+}
+
+table tr td p.status-time {
+  font-size: 1em;
+  font-family: Arial;
+  color:blue;
+  font-weight: 900;
+}
