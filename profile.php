@@ -52,7 +52,7 @@ if(isset($_POST['text']))
   }
 
   $dejt=date("F d. H:i");
-  $sql = "INSERT INTO `status`(`id`, `text`, `user`, `stamp`) VALUES ('','".$text."','".$_COOKIE['u']."','".$dejt."')";
+  $sql = "INSERT INTO `status`( `text`, `user`, `stamp`) VALUES ('".$text."','".$_COOKIE['u']."','".$dejt."')";
   $result = mysqli_query($conn, $sql);
   
   $sql = "SELECT `id` FROM `status` WHERE `text`='".$text."' AND `user`='".$_COOKIE['u']."' AND `stamp`='".$dejt."'";
@@ -61,7 +61,7 @@ if(isset($_POST['text']))
   $statusid=$row['id'];
   
 
-  $sql = "INSERT INTO `likes`(`id`, `user`, `number`, `status`) VALUES ('','','0','".$statusid."')";
+  $sql = "INSERT INTO `likes`(`number`, `status`) VALUES ('0','".$statusid."')";
   $result = mysqli_query($conn, $sql);
   mysqli_close($conn);
 }

@@ -65,7 +65,7 @@ if (mysqli_num_rows($result) > 0)
 }
 else
 {
-$sql = "INSERT INTO `user`(`id`, `name`, `username`, `userhash`, `password`, `pwhash`, `email`, `userpwhash`) VALUES ('','".$name."','".$username1."','".$userhash."','".$password1."','".$pwhash."','".$mail."','".hash("md5",hash("md5",strtolower($username1)).hash("md5",$password1))."');";
+$sql = "INSERT INTO `user`( `name`, `username`, `userhash`, `password`, `pwhash`, `email`, `userpwhash`) VALUES ('".$name."','".$username1."','".$userhash."','".$password1."','".$pwhash."','".$mail."','".hash("md5",hash("md5",strtolower($username1)).hash("md5",$password1))."');";
 $result = mysqli_query($conn, $sql);
 $err="Successfully registered";
 header('Location: login.php');
