@@ -19,7 +19,7 @@ if (!$conn)
     die("Connection failed!");
 }
 
-$sql = "INSERT INTO `contact`(`id`, `name`, `email`, `msg`) VALUES ('','".$name."','".$mail."','".$msg."')";
+$sql = "INSERT INTO `contact`(`name`, `email`, `msg`) VALUES ('".$name."','".$mail."','".$msg."')";
 $result = mysqli_query($conn, $sql);
 mysqli_close($conn);
 
